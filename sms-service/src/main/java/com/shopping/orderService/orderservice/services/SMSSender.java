@@ -13,10 +13,10 @@ public class SMSSender {
     private String accountSID="AC9a1ffab9020c917bc6cf22b4c897411d";
 	
 	//@Value("${jarvis.sms.accountsid}")
-    private String authToken="91e980c8b7cb34394851dada1e7cdac9";
+    private String authToken="0edd58d74c868ff6a8cde05dd9e76b4d";
 	
 	//@Value("${jarvis.sms.fromNumber}")
-	private String fromNumber="+15674122849";
+	private String fromNumber="+15204131798";
 	
 
     public String sendSMS(String toNumber, String messageText) {

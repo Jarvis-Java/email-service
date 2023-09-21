@@ -60,7 +60,7 @@ public class MailService {
 		Message message = new MimeMessage(session);
 		message.setFrom(new InternetAddress("sender_email_address"));
 		message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(toEmailID));
-		message.setSubject("Test Email");
+		message.setSubject("Online Shopping Email Update");
 		message.setText(emailText);
 		Transport.send(message);
 	}
